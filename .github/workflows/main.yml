@@ -1,7 +1,7 @@
 name: A workflow for my Hello World file
 on:
   schedule:
-    - cron: "50 2 * * *" # every 11:45
+    - cron: "0 3 * * *" # every 12:00 JST
   workflow_dispatch:
 jobs:
   build:
