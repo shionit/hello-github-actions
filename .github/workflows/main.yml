@@ -2,7 +2,7 @@ name: A workflow for my Hello World file
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5/5 3 * * *" # every 12:00 JST
+    - cron: "5 3 * * 0" # every 12:00 JST
 jobs:
   build:
     name: Hello world action
